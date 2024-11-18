@@ -5,11 +5,15 @@
 
 int main()
 {
-    constexpr int a = 5;
-    constexpr int b = 6;
+    int a, b;
+    std::cout << "Enter a: ";
+    std::cin >> a;
+    std::cout << "Enter b: ";
+    std::cin >> b;
+
     const int sum = libAdd(a, b);
 
     assert(sum == a + b);
 
-    std::cout << sum << std::endl;
+    std::cout << "Sum: " << sum << std::endl;
 }
