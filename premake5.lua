@@ -24,8 +24,8 @@ project "LibTester"
 
     outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
-    targetdir	("LibTester/bin/" .. outputdir .. "/%{prj.name}")
-	objdir		("LibTester/int/" .. outputdir .. "/%{prj.name}")
+    targetdir	("LibTester/bin/" .. outputdir)
+	objdir		("LibTester/bin/int/" .. outputdir)
 
     files
 	{

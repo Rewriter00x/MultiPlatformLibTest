@@ -6,8 +6,8 @@ project "MultiPlatformLibTest"
 
     outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
-    targetdir	("bin/" .. outputdir .. "/%{prj.name}")
-	objdir		("int/" .. outputdir .. "/%{prj.name}")
+    targetdir	("bin/" .. outputdir)
+	objdir		("bin/int/" .. outputdir)
 
     files
     {
