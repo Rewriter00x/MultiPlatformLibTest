@@ -2,7 +2,6 @@
 .vs/
 .idea/
 bin/
-int/
 
 !/vendor/bin
 
@@ -15,6 +14,3 @@ int/
 *.vcxproj
 *.filters
 *.user
-*.json
-*.log
-imgui.ini
