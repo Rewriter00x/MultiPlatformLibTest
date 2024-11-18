@@ -7,6 +7,10 @@ int/
 !/vendor/bin
 
 # Files
+.DS_Store
+*.xcodeproj
+*.xcuserstate
+*.xcworkspacedata
 *.sln
 *.vcxproj
 *.filters
