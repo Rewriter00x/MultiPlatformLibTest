@@ -1,0 +1,16 @@
+# Directiories
+.vs/
+.idea/
+bin/
+int/
+
+!/vendor/bin
+
+# Files
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.json
+*.log
+imgui.ini
